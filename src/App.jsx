@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>Ask me Anything!</h1>
+      <h1>Ask me Anything you can think of!</h1>
       {chats.map((chat, i) =>
         <Chat key={i} response={chat} />
       )}
